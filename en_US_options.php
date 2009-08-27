@@ -1,3 +1,4 @@
+//version 1.0.3
 <?php
 
 $boposts_default_options['header'] = "<h3>You might also like</h3><table><tr>";

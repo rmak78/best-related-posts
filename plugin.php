@@ -3,7 +3,7 @@
 Plugin Name: Best Related Posts
 Plugin URI: http://www.sutlej.net/downloads/best-related-posts/
 Description: Shows related posts with thumbnails. Allows you to design your own layout using simple interface.
-Version: 1.0.2
+Version: 1.0.3
 Author: R. MAK.
 Author URI: http://www.sutlej.net/
 
@@ -27,8 +27,8 @@ Author URI: http://www.sutlej.net/
 */
 define('BO_POSTS', true);
 
-@include(dirname(__FILE__) . '/languages/en_US_options.php');
-if (WPLANG != '') @include(dirname(__FILE__) . '/languages/' . WPLANG . '_options.php');
+@include(dirname(__FILE__) . '/en_US_options.php');
+if (WPLANG != '') @include(dirname(__FILE__) . '/' . WPLANG . '_options.php');
 
 $boposts_options = array_merge($boposts_default_options, array_filter(get_option('boposts')));
 
@@ -38,8 +38,8 @@ function boposts_activate()
 
     $wpdb->query('ALTER TABLE ' . $wpdb->prefix . 'posts ADD FULLTEXT boposts_index (post_content, post_title)');
 
-    @include(dirname(__FILE__) . '/languages/en_US_options.php');
-    if (WPLANG != '') @include(dirname(__FILE__) . '/languages/' . WPLANG . '_options.php');
+    @include(dirname(__FILE__) . '/en_US_options.php');
+    if (WPLANG != '') @include(dirname(__FILE__) . '/' . WPLANG . '_options.php');
 
     update_option('boposts', $boposts_default_options);
 }
@@ -119,7 +119,7 @@ function boposts_show()
             }
         }
 
-        if ($image == '') $image = get_option('siteurl') . '/wp-content/plugins/best-related-posts/images/empty.gif';
+        if ($image == '') $image = get_option('siteurl') . '/wp-content/plugins/best-related-posts/empty.gif';
 
         // Excerpt extraction
         $excerpt = strip_tags($content);

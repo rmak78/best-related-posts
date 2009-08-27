@@ -1,3 +1,4 @@
+//verison 1.0.3
 <?
 function boposts_request($name, $default=null)
 {
@@ -14,8 +15,8 @@ function boposts_stripslashes($value)
 
 if (isset($_POST['defaults']))
 {
-    @include(dirname(__FILE__) . '/languages/en_US_options.php');
-    if (WPLANG != '') @include(dirname(__FILE__) . '/languages/' . WPLANG . '_options.php');
+    @include(dirname(__FILE__) . '/en_US_options.php');
+    if (WPLANG != '') @include(dirname(__FILE__) . '/' . WPLANG . '_options.php');
 
     update_option('boposts', $boposts_options);
 }
@@ -27,8 +28,8 @@ if (isset($_POST['save']))
 }
 else 
 {
-    @include(dirname(__FILE__) . '/languages/en_US_options.php');
-    if (WPLANG != '') @include(dirname(__FILE__) . '/languages/' . WPLANG . '_options.php');
+    @include(dirname(__FILE__) . '/en_US_options.php');
+    if (WPLANG != '') @include(dirname(__FILE__) . '/' . WPLANG . '_options.php');
     $options = array_merge($boposts_default_options, array_filter(get_option('boposts')));    
 }
 ?>	

@@ -1,8 +1,8 @@
 === Plugin Name ===
-Contributors: rmak78
+Contributors: rmak78, Rana Mansoor Akbar Khan
 Donate link: http://www.sutlej.net/downloads/best-related-posts/donate/
 Tags: posts, images, links,related posts, related links, related post with thumbnail, links, thumbnails, linkbuilding, seo, Posts, link building
-Requires at least: 2.8
+Requires at least: 2.3
 Tested up to: 2.8.4
 Stable tag: trunk
 
@@ -41,6 +41,15 @@ No, It takes first image of your post and displays it as thumbnail.
 == Changelog ==
 
 = 1.0 =
-* Just released the plugin
+* released the plugin
+= 1.0.1 =
+*fixed bug in admin menu
+*fixed array_filter errors
+= 1.0.2 =
+*fixed image width issue
+*added multiple language support
+= 1.0.3 =
+*fixed instal issues including file location problems
+
 
 

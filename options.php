@@ -1,4 +1,4 @@
-//verison 1.0.3
+
 <?
 function boposts_request($name, $default=null)
 {

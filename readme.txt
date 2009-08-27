@@ -19,11 +19,9 @@ It is better than other plugins and widgets as it is good for internal link buil
 
 This section describes how to install the plugin and get it working.
 
-e.g.
-
 1. Upload all files contained in best-related-post.zip file to the `/wp-content/plugins/best-related-posts/` directory of your web server.
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. To add the related post list, usually you have to open the single.php of your current theme and add the PHP code:
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. To add the related post list, usually you have to open the single.php of your current theme and add the PHP code:
 
     <?php boposts_show(); ?>
 

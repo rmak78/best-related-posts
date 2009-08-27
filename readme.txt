@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: rmak78
+Contributors: rmak78, Rana Mansoor Akbar Khan
 Donate link: http://www.sutlej.net/downloads/best-related-posts/donate/
 Tags: posts, images, links,related posts, related links, related post with thumbnail, links, thumbnails, linkbuilding, seo, Posts, link building
 Requires at least: 2.3

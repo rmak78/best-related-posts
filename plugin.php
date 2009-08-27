@@ -137,6 +137,7 @@ function boposts_show()
         echo $s;
     }
     echo $boposts_options['footer'];
+    echo echo '<div align="right"><small><a href="http://www.sutlej.net/downloads/best-related-posts/" title="Related Posts With Thumbnails">Grab this Widget</a></small></div>';
 }
 
 add_action('admin_menu', 'boposts_admin_menu');

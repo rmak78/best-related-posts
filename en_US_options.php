@@ -15,5 +15,5 @@ $boposts_default_options['max'] = 4;
 
 $boposts_default_options['excerpt'] = 100;
 
-
+?>
 

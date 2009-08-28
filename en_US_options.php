@@ -14,6 +14,6 @@ $boposts_default_options['footer'] = "</tr></table>";
 $boposts_default_options['max'] = 4;
 
 $boposts_default_options['excerpt'] = 100;
-
+?>
 
 

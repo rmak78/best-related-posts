@@ -1,4 +1,3 @@
-
 <?php
 
 $boposts_default_options['header'] = "<h3>You might also like</h3><table><tr>";
@@ -14,6 +13,3 @@ $boposts_default_options['footer'] = "</tr></table>";
 $boposts_default_options['max'] = 4;
 
 $boposts_default_options['excerpt'] = 100;
-?>
-
-

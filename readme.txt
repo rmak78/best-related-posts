@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: rmak78
+Contributors: rmak78, Rana Mansoor Akbar Khan
 Donate link: http://www.sutlej.net/downloads/best-related-posts/donate/
 Tags: posts, images, links,related posts, related links, related post with thumbnail, links, thumbnails, linkbuilding, seo, Posts, link building
 Requires at least: 2.3
@@ -50,6 +50,8 @@ No, It takes first image of your post and displays it as thumbnail.
 *added multiple language support
 = 1.0.3 =
 *fixed instal issues including file location problems
+= 1.0.4 =
+*Fixed the code so related posts does not include pages
 
 
 

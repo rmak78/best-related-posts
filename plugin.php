@@ -3,7 +3,7 @@
 Plugin Name: Best Related Posts
 Plugin URI: http://www.sutlej.net/downloads/best-related-posts/
 Description: Shows related posts with thumbnails. Allows you to design your own layout using simple interface.
-Version: 1.0.3
+Version: 1.0.4
 Author: R. MAK.
 Author URI: http://www.sutlej.net/
 
@@ -74,7 +74,7 @@ function boposts_find_posts()
     ' where match(post_title, post_content) against (\'' .
     $terms . ' ' . $terms2 . "') and post_date<='" . $now . "'" .
     ' and post_status in (\'publish\') and id!=' . $post->ID .
-    ' order by score desc limit ' . $max;
+    ' and post_type in (\’post\’) order by score desc limit ' . $max;
 
     return $wpdb->get_results($query);
 

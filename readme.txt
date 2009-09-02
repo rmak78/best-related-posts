@@ -52,6 +52,8 @@ No, It takes first image of your post and displays it as thumbnail.
 *fixed instal issues including file location problems
 = 1.0.4 =
 *Fixed the code so related posts does not include pages
+= 1.0.5 =
+*Fixed the error that was not showing posts on some blogs after last update
 
 
 

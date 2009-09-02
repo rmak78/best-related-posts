@@ -73,8 +73,8 @@ function boposts_find_posts()
     $query = 'select id, post_content, post_title, match(post_title, post_content) against (\'' . $terms . ' ' . $terms2 . '\') as score from ' . $wpdb->posts  .
     ' where match(post_title, post_content) against (\'' .
     $terms . ' ' . $terms2 . "') and post_date<='" . $now . "'" .
-    ' and post_status in (\'publish\') and id!=' . $post->ID .
-    ' and post_type in (\’post\’) order by score desc limit ' . $max;
+    ' and post_type in (\'post\') and post_status in (\'publish\') and id!=' . $post->ID .
+    ' order by score desc limit ' . $max;
 
     return $wpdb->get_results($query);
 

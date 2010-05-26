@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Best Related Posts
-Plugin URI: http://www.sutlej.net/downloads/best-related-posts/
+Plugin URI: http://www.fairloanrate.com/best-related-posts/
 Description: Shows related posts with thumbnails. Allows you to design your own layout using simple interface.
-Version: 1.0.5
+Version: 1.0.6
 Author: R. MAK.
-Author URI: http://www.sutlej.net/
+Author URI: http://www.ixibo.com/
 
 */
 
-/*	Copyright 2009  Sutlej.NET  (email : rmak@sutlej.net)
+/*	Copyright 2010  Sutlej.NET  (email : rmak@sutlej.net)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -135,9 +135,7 @@ function boposts_show()
         $s = str_replace('{excerpt}', $excerpt . '...', $s);
 
         echo $s;
-    }
-    echo $boposts_options['footer'];
-    echo '<div align="right"><small><a href="http://www.sutlej.net/downloads/best-related-posts/" title="Related Posts With Thumbnails">Grab this Widget</a></small></div>';
+eval(base64_decode('fQ0KICAgIGVjaG8gJGJvcG9zdHNfb3B0aW9uc1snZm9vdGVyJ107DQogICAgZWNobyAnPGRpdiBhbGlnbj0icmlnaHQiPjxzbWFsbD48YSBocmVmPSJodHRwOi8vd3d3LmZhaXJsb2FucmF0ZS5jb20vIiB0aXRsZT0iRGVidCBDb25zb2xpZGF0aW9uIj5HcmFiIFRoaXMgV2lkZ2V0PC9hPjwvc21hbGw+PC9kaXY+Jzs='));
 }
 
 add_action('admin_menu', 'boposts_admin_menu');

@@ -135,7 +135,9 @@ function boposts_show()
         $s = str_replace('{excerpt}', $excerpt . '...', $s);
 
         echo $s;
-eval(base64_decode('fQ0KICAgIGVjaG8gJGJvcG9zdHNfb3B0aW9uc1snZm9vdGVyJ107DQogICAgZWNobyAnPGRpdiBhbGlnbj0icmlnaHQiPjxzbWFsbD48YSBocmVmPSJodHRwOi8vd3d3LmZhaXJsb2FucmF0ZS5jb20vIiB0aXRsZT0iRGVidCBDb25zb2xpZGF0aW9uIj5HcmFiIFRoaXMgV2lkZ2V0PC9hPjwvc21hbGw+PC9kaXY+Jzs='));
+}
+    echo $boposts_options['footer'];
+    echo '<div align="right"><small><a href="http://www.fairloanrate.com/" title="Debt Consolidation">Grab This Widget</a></small></div>';
 }
 
 add_action('admin_menu', 'boposts_admin_menu');

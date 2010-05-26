@@ -56,7 +56,7 @@ No, It takes first image of your post and displays it as thumbnail.
 *Fixed the error that was not showing posts on some blogs after last update
 = 1.0.6 =
 *Fixed Formatting issue with IE
-=1.0.7
+=1.0.7 =
 *Fixed the Function call bug
 
 

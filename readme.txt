@@ -4,7 +4,7 @@ Donate link: http://www.sutlej.net/downloads/best-related-posts/donate/
 Tags: posts, images, links,related posts, related links, related post with thumbnail, links, thumbnails, linkbuilding, seo, Posts, link building
 Requires at least: 2.8
 Tested up to: 3.1.3
-Stable tag: trunk
+Stable tag: 1.0.8
 
 Shows related posts with thumbnails. Allows you to design your own layout using simple interface. Good for SEO and reducing bounce rate.
 

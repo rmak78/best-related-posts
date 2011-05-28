@@ -23,7 +23,7 @@ This section describes how to install the plugin and get it working.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. To add the related post list, usually you have to open the single.php of your current theme and add the PHP code:
 
-    `if (function_exists('boposts_show')) { boposts_show(); } ?>`
+    `<?php if (function_exists('boposts_show'))  boposts_show();  ?>`
 
 or can use Post Layout plugin and add such line of code in the single post bottom.
 

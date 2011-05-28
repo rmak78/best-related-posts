@@ -9,7 +9,7 @@ Author URI: http://www.sutlej.net/
 
 */
 
-/*	Copyright 2010  Sutlej.NET  (email : rmak@sutlej.net)
+/*	Copyright 2011  Sutlej.NET  (email : rmak@sutlej.net)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

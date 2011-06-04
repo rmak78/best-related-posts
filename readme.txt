@@ -4,7 +4,7 @@ Donate link: http://www.sutlej.net/downloads/best-related-posts/donate/
 Tags: posts, images, links,related posts, related links, related post with thumbnail, links, thumbnails, linkbuilding, seo, Posts, link building
 Requires at least: 2.8
 Tested up to: 3.1.3
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 
 Shows related posts with thumbnails. Allows you to design your own layout using simple interface. Good for SEO and reducing bounce rate.
 
@@ -62,4 +62,5 @@ No, It takes first image of your post and displays it as thumbnail.
 *Fixed Wrapping issues in IE 6 +
 = 1.0.9 =
 *Cleaner Code for Plugin installation Provided so that blog does not break when you disable to plugin
-
+= 1.1.0 =
+*Removed Text Link from Footer(Made it optional)

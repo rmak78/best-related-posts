@@ -3,7 +3,7 @@
 Plugin Name: Best Related Posts
 Plugin URI: http://www.fairloanrate.com/best-related-posts/
 Description: Shows related posts with thumbnails. Allows you to design your own layout using simple interface.
-Version: 1.0.9
+Version: 1.1.0
 Author: R. MAK.
 Author URI: http://www.sutlej.net/
 
@@ -137,7 +137,7 @@ function boposts_show()
         echo $s;
 }
     echo $boposts_options['footer'];
-    echo '<div align="right"><small><a href="http://www.fairloanrate.com/best-related-posts/" title="Best Related Post">Get Related Posts Plugin</a></small></div>';
+    echo  $boposts_options['credits'];
 }
 
 add_action('admin_menu', 'boposts_admin_menu');

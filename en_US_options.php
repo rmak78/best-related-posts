@@ -10,6 +10,8 @@ $boposts_default_options['body'] =
 
 $boposts_default_options['footer'] = "</tr></table>";
 
+$boposts_default_options['credits'] = '<div align="right"><small><a href="http://www.fairloanrate.com/best-related-posts/" title="Debt Consolidation">Debt Consolidation Help</a></small></div>';
+
 $boposts_default_options['max'] = 4;
 
 $boposts_default_options['excerpt'] = 100;

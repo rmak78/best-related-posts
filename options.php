@@ -65,12 +65,6 @@ else
                     <textarea name="options[footer]" wrap="off" rows="5" cols="75"><?php echo htmlspecialchars($options['footer'])?></textarea>
                 </td>
             </tr>
-<tr valign="top">
-                <th scope="row"><label>Credits</label></th>
-                <td>
-                    <textarea name="options[credits]" wrap="off" rows="5" cols="75"><?php echo htmlspecialchars($options['credits'])?></textarea>
-                </td>
-            </tr>
         </table>
 
         <h2>Configuration</h2>

@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Best Related Posts
-Plugin URI: http://www.fairloanrate.com/best-related-posts/
+Plugin URI: http://www.sutlej.net/downloads/best-related-posts/
 Description: Shows related posts with thumbnails. Allows you to design your own layout using simple interface.
 Version: 1.1.0
-Author: R. MAK.
+Author: Rana Mansoor Akbar Khan
 Author URI: http://www.sutlej.net/
 
 */
@@ -137,7 +137,7 @@ function boposts_show()
         echo $s;
 }
     echo $boposts_options['footer'];
-    echo  $boposts_options['credits'];
+    
 }
 
 add_action('admin_menu', 'boposts_admin_menu');

@@ -5,6 +5,8 @@ Tags: posts, images, links,related posts, related links, related post with thumb
 Requires at least: 2.8
 Tested up to:  3.8.1
 Stable tag: 1.1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Shows related posts with thumbnails. Allows you to design your own layout using simple interface. Good for SEO and reducing bounce rate.
 
@@ -64,3 +66,9 @@ No, It takes first image of your post and displays it as thumbnail.
 *Cleaner Code for Plugin installation Provided so that blog does not break when you disable to plugin
 =1.1.0 =
 *Removed all external links from front end as per wordpress.org policy
+
+
+
+== Upgrade Notice ==
+=1.1.0 =
+Get rid of link back to developer's site at bottom of your widgets

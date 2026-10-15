@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "best-related-posts/related-posts",
+	"version": "2.0.0",
+	"title": "Best Related Posts",
+	"category": "widgets",
+	"icon": "admin-links",
+	"description": "Shows posts related to the current post by tags, categories and keywords.",
+	"keywords": [ "related", "posts", "similar" ],
+	"textdomain": "best-related-posts",
+	"attributes": {
+		"max": {
+			"type": "integer",
+			"default": 0
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ],
+		"spacing": {
+			"margin": true
+		}
+	},
+	"editorScript": "boposts-editor",
+	"render": "file:./render.php"
+}

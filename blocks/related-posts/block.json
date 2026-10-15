@@ -24,5 +24,6 @@
 		}
 	},
 	"editorScript": "boposts-editor",
+	"style": "boposts",
 	"render": "file:./render.php"
 }

@@ -70,6 +70,30 @@ function boposts_register_output() {
 add_action( 'init', 'boposts_register_output' );
 
 /**
+ * Registers the default stylesheet; it is only printed when a list that uses
+ * the default "boposts" classes is actually rendered.
+ */
+function boposts_register_style() {
+	wp_register_style( 'boposts', BOPOSTS_URL . 'assets/boposts.css', array(), BOPOSTS_VERSION );
+}
+add_action( 'init', 'boposts_register_style' );
+add_action( 'enqueue_block_assets', 'boposts_register_style' );
+
+/**
+ * Enqueues the default stylesheet when the rendered HTML uses its classes.
+ *
+ * @param string $html Rendered list.
+ * @return string
+ */
+function boposts_maybe_enqueue_style( $html ) {
+	if ( '' !== $html && false !== strpos( $html, 'class="boposts' ) ) {
+		wp_enqueue_style( 'boposts' );
+	}
+	return $html;
+}
+add_filter( 'boposts_output', 'boposts_maybe_enqueue_style', 5 );
+
+/**
  * Appends the related posts list to single post content when enabled.
  *
  * @param string $content Post content.

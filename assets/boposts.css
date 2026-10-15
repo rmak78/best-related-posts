@@ -1,0 +1,44 @@
+/* Best Related Posts — default layout. Only loaded when the default template is in use
+   or a template contains the "boposts" class. Override freely in your theme. */
+.boposts {
+	margin: 2em 0;
+}
+.boposts-title {
+	margin: 0 0 0.75em;
+	font-size: 1.25em;
+}
+.boposts-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 1.25em;
+}
+.boposts-item {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+.boposts-item:hover .boposts-item-title,
+.boposts-item:focus .boposts-item-title {
+	text-decoration: underline;
+}
+.boposts-thumb {
+	display: block;
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	border-radius: 8px;
+	background: #f0f0f0;
+	margin-bottom: 0.6em;
+}
+.boposts-item-title {
+	display: block;
+	font-weight: 600;
+	line-height: 1.3;
+	margin-bottom: 0.3em;
+}
+.boposts-excerpt {
+	display: block;
+	font-size: 0.875em;
+	line-height: 1.45;
+	opacity: 0.8;
+}

@@ -17,12 +17,13 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function boposts_default_options() {
 	$defaults = array(
-		'header'         => '<h3>You might also like</h3><table><tr>',
-		'body'           => '<td valign="top" width="130" style="padding:5px">' . "\n"
-			. '<table><tr><td style="word-break:break-all"><a href="{link}"><img src="{image}" width="110" alt="{title}"/></a></td></tr>' . "\n"
-			. '<tr><td width="110"><p><strong><a href="{link}">{title}</a></strong><br />{excerpt}</p></td></tr>' . "\n"
-			. '</table></td>',
-		'footer'         => '</tr></table>',
+		'header'         => '<div class="boposts"><h3 class="boposts-title">You might also like</h3><div class="boposts-grid">',
+		'body'           => '<a class="boposts-item" href="{link}">' . "\n"
+			. '<img class="boposts-thumb" src="{image}" alt="" loading="lazy" />' . "\n"
+			. '<span class="boposts-item-title">{title}</span>' . "\n"
+			. '<span class="boposts-excerpt">{excerpt}</span>' . "\n"
+			. '</a>',
+		'footer'         => '</div></div>',
 		'max'            => 4,
 		'excerpt'        => 100,
 		'auto_append'    => 0,

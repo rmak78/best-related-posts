@@ -65,8 +65,9 @@ Turn off "Automatic display" if you also call `boposts_show()` from your theme, 
 
 == Screenshots ==
 
-1. Showing related posts to visitors.
-2. Plugin Options Page for Admin.
+1. Related posts shown after a post with the default layout and featured-image thumbnails.
+2. The settings page: your own HTML template, display options and post types.
+3. The Best Related Posts block in the editor with a live preview.
 
 == Changelog ==
 

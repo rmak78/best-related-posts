@@ -1,6 +1,6 @@
 === Best Related Posts ===
 Contributors: rmak78
-Donate link: http://www.sutlej.net/downloads/best-related-posts/
+Donate link: http://bixisoft.com/downloads/best-related-posts/
 Tags: related posts, related content, thumbnails, seo, internal linking
 Requires at least: 6.2
 Tested up to: 7.1
